@@ -1,0 +1,138 @@
+:root {
+    --black-title:#111111;
+
+  }
+  
+  body {
+    /* font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    letter-spacing: 0.03em;
+    color: var(--slate);
+    background-color: var(--white);
+    margin: 0; */
+  }
+  
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6,
+  p {
+    margin: 0;
+  }
+  html {
+    box-sizing: border-box;
+  }
+  
+  *,
+  *::after,
+  *::before {
+    box-sizing: inherit;
+  }
+  
+  img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .link {
+    text-decoration: none;
+    /* color: inherit; */
+  }
+  
+  .list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+
+  .our-products{
+    display: flex;
+    flex-direction: column;
+    /* width: 1136px;
+    height: 442px; */
+    align-items: center;
+    gap: 50px;
+    flex-shrink: 0;
+  }
+
+  .our-products-our{
+    color: var(--black-title);
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 28px; /* 116.667% */
+    letter-spacing: -0.72px;
+    text-transform: uppercase;
+  }
+
+  .our-products-products{
+    color: #FD9222;
+    font-family: Montserrat;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 28px;
+    letter-spacing: -0.72px;
+    text-transform: uppercase;
+  }
+
+  .our-products-container{
+    display: flex;
+    gap: 18px;
+  }
+
+  .our-products-item{
+    display: flex;
+    flex-direction: column;
+    flex-shrink: 0;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+    border: 1px solid rgba(17, 17, 17, 0.10);
+    background: #FFF;
+    padding: 20px 32px;
+  }
+
+  .products-title{
+    color: var(--black-title);
+    font-family: Montserrat;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 24px; /* 133.333% */
+    letter-spacing: -0.36px;
+    text-transform: uppercase;
+    margin-top: 8px;
+  }
+  
+.products-sub-title{
+    color: rgba(17, 17, 17, 0.70);
+    font-family: Montserrat;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 14px; /* 116.667% */
+    letter-spacing: -0.24px;
+}
+
+.products-button{
+  border-radius: 100px;
+  border: 1px solid rgba(17, 17, 17, 0.10);
+  background: #FAFAFA;
+  padding: 8px 20px;
+  margin-top: 18px;
+}
+
+.products-button-text{
+  color: var(--black-title);
+  font-family: Montserrat;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
