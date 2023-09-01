@@ -84,6 +84,7 @@
   .our-products-container{
     display: flex;
     gap: 18px;
+    
   }
 
   .our-products-item{
@@ -96,6 +97,7 @@
     border: 1px solid rgba(17, 17, 17, 0.10);
     background: #FFF;
     padding: 20px 32px;
+    width: calc((100% - 30px) / 4 );
   }
 
   .products-title{
@@ -135,4 +137,17 @@
   font-style: normal;
   font-weight: 600;
   line-height: normal;
+}
+
+.our-products-pagination{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.products-pagination-wrapper{
+  display: flex;
+  margin-top: 32px;
+  gap: 13px;
+  fill: #FD9222;
 }
