@@ -47,7 +47,7 @@ img {
   margin: 0;
 }
 
-.container {
+/* .container {
   width: 375px;
   padding: 0 20px;
   margin: 0 auto;
@@ -63,7 +63,7 @@ img {
     padding: 0 32px;
     margin: 0 auto;
   }
-}
+} */
 
 .our-products {
   display: flex;
@@ -73,7 +73,7 @@ img {
   align-items: center;
   gap: 50px;
   flex-shrink: 0;
-  overflow: hidden;
+  /* overflow: hidden; */
 }
 
 .our-products-our {
