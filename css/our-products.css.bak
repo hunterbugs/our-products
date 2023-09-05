@@ -96,7 +96,7 @@ img {
   text-transform: uppercase;
 }
 
-.our-products-wrapper {
+.our-products-container {
   display: flex;
   gap: 18px;
 }

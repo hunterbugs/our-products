@@ -24,7 +24,7 @@
           <span class="our-products-products">products</span>
         </h2>
 		
-        <ul class="our-products-wrapper">
+        <ul class="our-products-container">
           <li class="our-products-item list">
             <img
               class="products-image"
